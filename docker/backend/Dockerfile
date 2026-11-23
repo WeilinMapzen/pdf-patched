@@ -1,6 +1,6 @@
 # Stirling-PDF backend-only image — JAR built with -PbuildWithFrontend=false, UI ships separately.
 
-ARG BASE_VERSION=1.0.6@sha256:003c1056474d4f9b8c38d3c8b72c78a7ac51b45e12500f831739a4cbf8803987
+ARG BASE_VERSION=1.2.0@sha256:2e97e233a716a4f32acb14c6af93999d6d9735a4e4b711338a24c8574a8c409f
 ARG BASE_IMAGE=stirlingtools/stirling-pdf-base:${BASE_VERSION}
 
 # Stage 1: Build the Java application (backend only, no frontend)
